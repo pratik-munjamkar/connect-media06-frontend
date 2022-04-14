@@ -1,0 +1,176 @@
+.profileWrapper {
+    padding: 1rem 15rem;
+  }
+  
+  .profileImg {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .profileTop {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.5fr;
+  }
+  
+  .profileTopLeft {
+    padding: 1rem;
+  }
+  .profileTopRight {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .profileButtons {
+    margin-left: 1rem;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+      0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  }
+  
+  .profileUsername {
+    font-size: 2rem;
+    vertical-align: middle;
+    font-weight: 500;
+  }
+  
+  .profileTopRightMiddle {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .profileTopRightTop {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .profileTopRightBottom {
+    text-align: left;
+  }
+  
+  .profileTopRightBottom p {
+    margin: 0;
+  }
+  
+  .profilebio {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  
+  .profileMiddle {
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .profileMiddleList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+  }
+  
+  .profileMiddleListItemBtn {
+    padding: 0.2rem 2rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .profileMiddleListItemBtn:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .profileBottom {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  
+  .profilePostsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+  }
+  
+  .profileTopRightMiddleData {
+    font-weight: 700;
+  }
+  
+  .chooseProPic {
+    display: none;
+  }
+  
+  .editPicIcon {
+    font-size: 1.5rem;
+    position: relative;
+    top: -21px;
+  }
+  .editPicIcon:hover {
+    color: rgb(64, 93, 230);
+    cursor: pointer;
+  }
+  
+  .userDetailsCountSpan:hover {
+    color: rgb(64, 93, 230);
+    cursor: pointer;
+  }
+  
+  .profileTopRightMiddle a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .hiddenDropdown {
+    display: none;
+  }
+  
+  .modalPicButtons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .profileWrapper {
+      padding: 1rem 6rem;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .profileWrapper {
+      padding: 1rem;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .profileTop {
+      grid-template-columns: 1fr;
+    }
+  
+    .profilePostsContainer {
+      grid-template-columns: 1fr 1fr;
+    }
+    .profileMiddleList {
+      flex-direction: column;
+    }
+    .profileTopRightTop {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+  @media only screen and (max-width: 596px) {
+    .profilePostsContainer {
+      grid-template-columns: 1fr;
+    }
+    .profileImg {
+      width: 100px;
+      height: 100px;
+    }
+  }

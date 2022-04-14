@@ -1,0 +1,51 @@
+.headerMain {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  }
+  .headerList {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: white;
+  }
+  
+  .headerListItem {
+    color: white !important;
+  }
+  
+  .headerNavbar {
+    background-color: #405de6;
+  }
+  
+  .headerNavbarLogo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .headerNavbarLogo:hover {
+    color: white;
+  }
+  
+  .headerNavbarLogo span {
+    position: relative;
+    bottom: 4px;
+    font-size: 2rem;
+  }
+  
+  .navLinks {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  .navLinks:hover {
+    color: white;
+  }

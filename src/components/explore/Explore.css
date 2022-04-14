@@ -1,0 +1,22 @@
+.explore {
+    padding: 1rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  @media only screen and (max-width: 1208px) {
+    .explore {
+      padding: 1rem;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .explore {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 786px) {
+    .explore {
+      grid-template-columns: 1fr;
+    }
+  }

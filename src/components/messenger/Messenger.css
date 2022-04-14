@@ -1,0 +1,104 @@
+.messenger {
+    height: calc(100vh - 100px);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 1rem;
+  }
+  
+  .messengerRight {
+    position: relative;
+  }
+  
+  .messengerLeftWrapper,
+  .messengerRightWrapper {
+    padding: 1rem;
+  }
+  .directDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .directDivText {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+  
+  .messengerRightWrapperBottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  
+  .chatMessageInput {
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+    border-radius: 0.5rem;
+  }
+  
+  .messengerRightWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .messengerRightWrapperTop {
+    height: 450px;
+    overflow-y: scroll;
+    padding: 1rem;
+  }
+  
+  .noConversationText {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 40px;
+    color: rgb(194, 194, 194);
+    padding: 2rem;
+  }
+  .noConversationText p {
+    font-size: 20px;
+  }
+  
+  .chatSuggestionsListDiv {
+    padding: 0 2rem;
+  }
+  
+  .chatSuggestionsList {
+    list-style: none;
+    padding: 0 1rem 0 0;
+    overflow-y: scroll;
+    max-height: 330px;
+  }
+  
+  .chatSuggestionsItem {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .chatSuggestionsItem:hover {
+    background-color: rgba(204, 204, 204, 0.24);
+  }
+  
+  .messengerLeftWrapperBottom {
+    height: 430px;
+    overflow-y: scroll;
+    padding: 1rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .messenger {
+      grid-template-columns: 1fr;
+    }
+    .messengerLeftWrapperBottom {
+      height: 300px;
+      overflow-y: scroll;
+      padding: 1rem;
+    }
+  }

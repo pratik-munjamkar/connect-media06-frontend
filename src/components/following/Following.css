@@ -1,0 +1,24 @@
+.followingListContainer {
+    padding: 4rem 8rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+  
+  .followTitle {
+    margin-bottom: 20px;
+  }
+  
+  .followingListLeft {
+    padding-top: 10px;
+  }
+  
+  .followingListRight {
+    width: 400px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .followingListContainer {
+      flex-wrap: wrap;
+    }
+  }

@@ -1,0 +1,153 @@
+.posts {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 10px 0;
+    max-width: 662px;
+  }
+  
+  .postsWrapper {
+    padding: 10px;
+  }
+  
+  .postsTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+  
+  .postTopLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  
+  .postProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .postUsername {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+  }
+  
+  .postDate {
+    font-size: 12px;
+  }
+  
+  .postCenter {
+    margin: 20px 0;
+  }
+  
+  .postImg {
+    margin-top: 10px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+  }
+  .postImg:hover {
+    cursor: pointer;
+  }
+  
+  .postImgProEx {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .postBottom {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .likeIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .commentIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    transform: scaleX(-1);
+    position: relative;
+    top: -1.1px;
+  }
+  
+  .postLikeCounter {
+    font-size: 15px;
+    margin: 0.5rem 0;
+  }
+  
+  .postCommentText {
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(59, 84, 207);
+  }
+  
+  .postText {
+    margin-left: 10px;
+    word-wrap: break-word;
+  }
+  
+  .postCommentTextp {
+    opacity: 0.7;
+  }
+  
+  .postUsernameBold {
+    font-weight: 900;
+  }
+  
+  .postCommentPara {
+    margin: 0;
+  }
+  
+  .commentContainer {
+    padding: 0.5rem 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  
+  .commentContainer .commentInput {
+    width: 100%;
+    border: none;
+    padding: 0 1rem;
+    background-color: transparent;
+  }
+  
+  .postBottomBottom a {
+    text-decoration: none;
+  }
+  
+  .captionP {
+    margin: 0;
+  }
+  
+  .redError {
+    color: crimson;
+    padding-left: 2rem;
+    margin: 0;
+  }
+  
+  .postButton {
+    background-color: #405de6 !important;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+      0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  }
+  .postButton:hover {
+    background-color: rgb(59, 84, 207) !important;
+  }
